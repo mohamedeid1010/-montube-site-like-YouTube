@@ -1,0 +1,11 @@
+button{
+    background-color: #ffc107 !important;
+    color: black !important;
+    border: none !important;
+}
+.video-section .card{
+    transform: translateY(0%);
+}
+.channel-page .navbar{
+    z-index: -1 !important;
+}

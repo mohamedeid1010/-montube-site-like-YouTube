@@ -1,0 +1,32 @@
+.filter{
+    cursor: pointer;
+}
+.filter:hover{
+    color: rgb(185, 236, 3);
+}
+.filter-column{
+    display: none;
+}
+div.row.filter-column{
+    display: flex;
+}
+time{
+    position:absolute;
+    bottom: 6px;
+    right: 4px;
+} 
+p.card-text{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+@media (max-width:752px) {
+    .channel-img{
+        display: block !important;
+
+    }
+    .rounded-circle{
+        margin-left: 2px !important;
+    }
+    
+}

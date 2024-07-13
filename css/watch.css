@@ -1,0 +1,49 @@
+.video-section{
+    margin-top: 70px !important;
+} 
+.video-section .card{
+    transform: translateY(0%);
+}
+.watch-page .icon-watch {
+position: absolute;
+bottom: 20px;
+cursor: pointer;
+}
+p.card .card-text{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.channel-image{
+    margin-left: 1px !important;
+}
+.channel-img-text{
+    position: absolute;
+    bottom: 3px;
+}
+.text-muted{
+    padding-top: 20px !important;
+}
+.card-inner{
+    display: none;
+}
+.dropdown-menu.show{
+    background-color: black !important;
+}
+.dropdown-item{
+    background-color: black !important;
+}
+.dropdown-item:hover{
+    background-color: rgba(240, 248, 255, 0.274) !important;
+}
+.rounded-circle{
+    margin-left: 2px !important;
+}
+@media (max-width:767px) {
+    .watch-page .icon-watch{
+        position: absolute !important;
+        bottom: 80px !important;
+        right: 5px !important;
+    }
+    
+}
